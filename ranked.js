@@ -3,22 +3,22 @@ function calcularNivel(victory, derrot) {
     let rank;
 
     switch (true) {
-        case victory < 10:
+        case numberVictory < 10:
             rank = "Ferro";
             break;
-        case victory <= 20:
+        case numberVictory <= 20:
             rank = "Bronze";
             break;
-        case victory <= 50:
+        case numberVictory <= 50:
             rank = "Prata";
             break;
-        case victory <= 80:
+        case numberVictory <= 80:
             rank = "Ouro";
             break;
-        case victory <= 90:
+        case numberVictory <= 90:
             rank = "Diamante";
             break;
-        case victory <= 100:
+        case numberVictory <= 100:
             rank = "Lendário";
             break;
         default:
